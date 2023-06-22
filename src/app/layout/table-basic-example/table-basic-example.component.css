@@ -6,3 +6,9 @@ table {
 th,td {
 border: .5px ;
 }
+
+.image{
+  width: 850px;
+  height: 230px;
+  margin-left: 400px;;
+}
