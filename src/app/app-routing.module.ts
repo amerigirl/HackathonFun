@@ -3,13 +3,14 @@ import { RouterModule, Routes } from '@angular/router';
 import { ActivityComponent } from './layout/activity/activity.component';
 import { CodeComponent } from './layout/code/code.component';
 import { IssuesComponent } from './layout/issues/issues.component';
-import { OverviewPageComponent } from './overview-page/overview-page.component';
+import { TableBasicExampleComponent } from './layout/table-basic-example/table-basic-example.component';
 
 const routes: Routes = [
-  {path: 'overview', component: OverviewPageComponent },
   {path: 'issues', component: IssuesComponent },
   {path: 'code', component: CodeComponent },
-  {path: 'activity', component: ActivityComponent }
+  {path: 'activity', component: ActivityComponent },
+  {path: 'table-basic-example', component: TableBasicExampleComponent }
+
 ];
 
 @NgModule({
